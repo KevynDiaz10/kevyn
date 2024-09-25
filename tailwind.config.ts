@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary: "#f5741c",
+        darkBg: "#131424"
+      },
+      backgroundImage: {
+        "gradient-cover":"bg-gradient-to-r from-blue-400 to-blue-500"
       },
     },
   },
