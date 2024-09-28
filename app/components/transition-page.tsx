@@ -6,7 +6,7 @@ const TransitionPage = () => {
   return (
     <AnimatePresence mode='wait'>
         <div>
-            <motion.div className='fixed top-0 bottom-0 right-full w-screen z-30 bg-slate-400'
+            <motion.div className='fixed top-0 bottom-0 right-full w-screen  h-screen z-30 bg-slate-400'
             variants={transitionVariantsPage}
             initial="initial"
             animate="animate"

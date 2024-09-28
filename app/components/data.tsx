@@ -1,4 +1,5 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, } from "lucide-react";
+import { Icon } from '@iconify/react'
 
 export const socialNetworks = [
     {
@@ -147,7 +148,9 @@ export const dataPortfolio = [
         image: "/image-1.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
-    },
+        icons: [<Icon icon="devicon:react-wordmark" key="icon-1" height={36} width={36}/>, <Icon icon="devicon:mysql-wordmark" key="icon-2" height={36} width={36}/>, <Icon icon="devicon:nodejs-wordmark" key="icon-3" height={36} width={36}/>, <Icon icon="logos:bootstrap" key="icon-4" height={36} width={36}/>]
+        }
+    ,
     {
         id: 2,
         title: "Desarrollo Web Ágil",

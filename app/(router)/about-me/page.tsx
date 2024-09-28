@@ -1,19 +1,16 @@
-import ContainerGlobal from "@/app/components/container";
 import CounterServices from "@/app/components/counter-services";
 import CoverParticles from "@/app/components/Particles";
 import { TimeLine } from "@/app/components/time-line";
 import MotionTransition from "@/app/components/transition-component";
-import TransitionPage from "@/app/components/transition-page";
 import Image from "next/image";
 import React from "react";
 
 const PageAbout = () => {
   return (
-    <div>
+    <div className="w-full max-w-6xl px-4 pb-40 mx-auto pt-40 md:pb-0 md:px-6">
       <CoverParticles />
-      <ContainerGlobal>
       <div className="">
-        <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10 font-bold">
+        <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl font-bold">
           Mi trayectoria como desarrollador
         </h1>
         </div>
@@ -30,9 +27,8 @@ const PageAbout = () => {
           />
         </MotionTransition>
         <CounterServices />
-      </ContainerGlobal>
       <TimeLine />
-    </div>
+      </div>
   );
 };
 
