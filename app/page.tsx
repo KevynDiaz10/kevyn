@@ -10,7 +10,6 @@ export default function Home() {
       <div className="flex min-h-[100vh] h-full">
         <CoverParticles />
         <Introduction />
-        
       </div>
     </main>
   );

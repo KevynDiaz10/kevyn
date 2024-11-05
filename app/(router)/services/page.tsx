@@ -9,7 +9,6 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <ImageBottomRightServices />
       <ImageCenterLeftServices />
       <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 px-20">
         <div className="max-w-[550] ">

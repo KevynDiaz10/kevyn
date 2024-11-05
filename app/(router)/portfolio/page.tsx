@@ -33,7 +33,7 @@ export default function page() {
             {dataPortfolio.map((data) => (
               <Card
                 key={data.id}
-                className="max-w-sm"
+                className="max-w-sm backdrop-blur-sm bg-white/5"
                 renderImage={() => (
                   <Image
                     width={500}
@@ -44,7 +44,7 @@ export default function page() {
                   />
                 )}
               >
-                <h5 className=" p-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className=" p-2 text-2xl font-bold tracking-tight">
                   {data.title}
                 </h5>
                 <div className=" grid grid-cols-2 p-2 justify-items-center">
@@ -52,7 +52,7 @@ export default function page() {
                   <Button className="bg-slate-400">Demo</Button>
                 </div>
                 <div className="">
-                  <span className="flex flex-row justify-around">{data.icons}</span>
+                  <span className="flex flex-row justify-around pb-2">{data.icons}</span>
                 </div>
               </Card>
             ))}

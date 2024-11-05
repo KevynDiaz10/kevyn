@@ -21,7 +21,7 @@ const Introduction = () => {
           <div className="flex items-center justify-center gap-5">
             <Link
               href="/projects"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:bg-slate-400 "
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:bg-slate-400"
             >
               Ver proyectos
             </Link>

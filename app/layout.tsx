@@ -12,6 +12,7 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kevyn Diaz",
   description: "landing page",
+  icons: "../next.svg"
 };
 
 export default function RootLayout({

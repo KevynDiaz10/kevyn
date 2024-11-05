@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 
 const CounterServices = () => {
   return (
-    <div className="grid justify-between max-w-3xl grid-cols-2 mx-auto my-8 md:grid-cols-4 md:gap-6">
+    <div className="grid justify-between max-w-3xl grid-cols-2 mx-auto my-8 md:grid-cols-3 md:gap-6">
       {dataCounter.map(
         ({ id, endCounter, text, lineRight, lineRightMobile }) => (
           <div
