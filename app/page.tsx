@@ -1,4 +1,3 @@
-import { DarkThemeToggle, Flowbite } from "flowbite-react";
 import Introduction from "./components/introduction";
 import CoverParticles from "./components/Particles";
 import TransitionPage from "./components/transition-page";

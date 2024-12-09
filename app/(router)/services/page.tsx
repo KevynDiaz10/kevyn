@@ -1,6 +1,5 @@
 'use client'
 import {
-  ImageBottomRightServices,
   ImageCenterLeftServices,
 } from "@/app/components/imagw-services";
 import SliderServices from "@/app/components/slider-services";
@@ -17,19 +16,14 @@ const page = () => {
           </h1>
           <br />
           <p className="z-30">
-            Soy un desarrollador web full-stack entusiasta con habilidades en
-            tecnol ogías como Next.js, MySQL, React, Node.js, Express, Tailwind
-            CSS y Bootstrap. Aunque no cuento con experiencia profesional, he
+            Soy un desarrollador de Aplicaciones web entusiasta con habilidades en
+            tecnologías como Next.js, MySQL, React, Node.js, Express, Tailwind, Prisma
+            CSS y Bootstrap. Aunque no cuento con experiencia laboral, he
             desarrollado varios proyectos personales que me han permitido
             consolidar mis conocimientos en estas herramientas. Estoy buscando
-            oportun idades para aplicar mis habilidades en proyectos reales y
-            contribuir al desarrollo de aplicaciones web innovadoras.
+            oportunidades para aplicar mis habilidades en proyectos reales y
+            contribuir al desarrollo de aplicaciones web.
           </p>
-          <div className="grid justify-items-center">
-            <button className="px-3 py-2 rounded-lg hover:shadow-xl hover:bg-slate-400 border-2 mt-5">
-              Contacta conmigo
-            </button>
-          </div>
         </div>
         <div className="">
           <SliderServices/>

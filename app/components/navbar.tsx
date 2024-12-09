@@ -3,7 +3,6 @@ import Link from "next/link";
 import { itemsNavbar } from "./data";
 import { usePathname } from "next/navigation";
 import MotionTransition from "./transition-component";
-import { ModeToggle } from "./toggleThemes";
 
 const Navbar = () => {
   const router = usePathname();

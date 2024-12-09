@@ -12,17 +12,17 @@ const PageAbout = () => {
         <h1 className="text-2xl leading-tight text-center md:text-center md:text-5xl font-bold">
           Mi trayectoria como desarrollador
         </h1>
-        </div>
-          <Image
-            src="/avatar-lapto.png"
-            alt=""
-            height={300}
-            width={300}
-            className="hidden bottom-0 right-0 md:inline-block md:absolute md:mt-10"
-          />
-        <CounterServices />
-      <TimeLine />
       </div>
+      <Image
+        src="/avatar-lapto.png"
+        alt=""
+        height={300}
+        width={300}
+        className="hidden bottom-0 right-0 md:inline-block md:absolute md:mt-10"
+      />
+      <CounterServices />
+      <TimeLine />
+    </div>
   );
 };
 

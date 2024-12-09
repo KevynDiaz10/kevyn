@@ -5,7 +5,7 @@ import Link from "next/link";
 const Introduction = () => {
   return (
     <div className="z-20 w-full">
-      <div className="z-20 grid h-full items-center px-6 py-20 md:py-0 md:grid-cols-2">
+      <div className="z-20 grid h-full items-center px-6 py-20 md:py-0 md:grid-cols-2 justify-center">
         <Image src="/home-4.png" priority alt="" width="400" height="400" />
         <div className="flex flex-col justify-center max-w-md">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 font-bold text-slate-200">
@@ -16,17 +16,17 @@ const Introduction = () => {
             creación de soluciones digitales. Estoy inmerso en el emocionante
             mundo del desarrollo full-stack. En este espacio, compartiré mis
             aprendizajes, proyectos y reflexiones sobre el camino hacia
-            convertirme en un desarrollador web completo."
+            convertirme en un desarrollador web.
           </p>
           <div className="flex items-center justify-center gap-5">
             <Link
-              href="/projects"
+              href="/portfolio"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:bg-slate-400"
             >
               Ver proyectos
             </Link>
             <Link
-              href="/contac"
+              href="whatsapp://send?phone=+584241839447"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:bg-slate-400"
             >
               Contacta conmigo
