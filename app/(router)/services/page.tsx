@@ -17,8 +17,7 @@ const page = () => {
           <br />
           <p className="z-30">
             Soy un desarrollador de Aplicaciones web entusiasta con habilidades en
-            tecnologías como Next.js, MySQL, React, Node.js, Express, Tailwind, Prisma
-            CSS y Bootstrap. Aunque no cuento con experiencia laboral, he
+            tecnologías como Next.js, MySQL, React, Node.js, Express, Tailwind, Prisma y Bootstrap. Aunque no cuento con experiencia laboral, he
             desarrollado varios proyectos personales que me han permitido
             consolidar mis conocimientos en estas herramientas. Estoy buscando
             oportunidades para aplicar mis habilidades en proyectos reales y
